@@ -1,0 +1,10 @@
+d1 = {'Extraordinary':'going beyond what is usual, regular, or customary',
+'abomination':'something regarded with disgust or hatred',
+'extinct':'no longer existing',
+'ghastly':'terrifyingly horrible to the senses',
+'litigation':'the act, process, or practice of settling a dispute in a court of law ',
+'gazette':'a paper that is printed and distributed usually daily or weekly and that contains news, articles of opinion, features, and advertising'}
+print("Enter a Word from the Dictionary:")
+inpword = input()
+print("Meaning:")
+print(d1[inpword])
